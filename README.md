@@ -1,8 +1,9 @@
 # Gateways API
-REST API for BitShares blockchain gateway
 
 [![License]][LICENSE.md]
 [![Telegram]][Telegram join]
+![build](https://github.com/fincubator/control_center/workflows/build/badge.svg)
+
 
 REST API for BitShares gateways between [Booker] and [BitSharesUI]
 
@@ -17,7 +18,6 @@ Clone the repository & setup configs
 ```shell script
 git clone https://github.com/fincubator/gateways_api
 cd gateways_api/
-cp config/config.yml.example config/config.yml && cp docker-compose.yml.example docker-compose.yml && cp alembic.ini.example alembic.ini
 ```
 
 if you want to use your own PostgreSQL connection data, you need to change:
