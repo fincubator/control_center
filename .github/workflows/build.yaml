@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the stack
-        run: docker-compose up -d
+        run: docker-compose up -d --build
 
       - name: Run tests
         run: docker exec gw_api pipenv run pytest
